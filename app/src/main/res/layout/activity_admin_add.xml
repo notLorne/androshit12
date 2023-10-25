@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/username_hint" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/first_name_hint" />
+
+        <EditText
+            android:id="@+id/lastNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/last_name_hint" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/monthEditText"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:hint="@string/month_hint" />
+
+            <EditText
+                android:id="@+id/dayEditText"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:hint="@string/day_hint" />
+
+            <EditText
+                android:id="@+id/yearEditText"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:hint="@string/year_hint" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/numberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/number_hint" />
+
+        <EditText
+            android:id="@+id/streetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/street_hint" />
+
+        <EditText
+            android:id="@+id/cityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/city_hint" />
+
+        <EditText
+            android:id="@+id/stateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/state_hint" />
+
+        <EditText
+            android:id="@+id/postalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/postal_hint" />
+
+        <EditText
+            android:id="@+id/countryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/country_hint" />
+
+        <EditText
+            android:id="@+id/workEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/work_hint" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/email_hint" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/save_button_label" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/clear_button_label" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/back_to_admin_home_label" />
+    </LinearLayout>
+</ScrollView>

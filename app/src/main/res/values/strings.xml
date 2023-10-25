@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">labo14</string>
+    <string name="title_activity_admin_dash">AdminDash</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Lookup buttons
+    <string name="load_button_label">Load User</string>
+    <string name="back_button_label">Back to Home</string>
+
+    // admin home buttons
+    <string name="option_1">Ajouter</string>
+    <string name="option_2">Modifier</string>
+    <string name="option_3">Supprimer</string>
+    <string name="option_4">Consulter</string>
+    <string name="option_5">Courriel</string>
+
+    // add window strings
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="month_hint">Month</string>
+    <string name="day_hint">Day</string>
+    <string name="year_hint">Year</string>
+    <string name="number_hint">Number</string>
+    <string name="street_hint">Street</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+    <string name="postal_hint">Postal Code</string>
+    <string name="country_hint">Country</string>
+    <string name="work_hint">Work</string>
+    <string name="email_hint">Email</string>
+    <string name="clear_button_label">Clear Fields</string>
+    <string name="save_button_label">Save</string>
+    <string name="back_to_admin_home_label">Back Home</string>
+
+</resources>

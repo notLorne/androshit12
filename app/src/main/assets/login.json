@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "user1password",
+      "info": {
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "birthday": {
+          "month": 3,
+          "day": 22,
+          "year": 1992
+        },
+        "address": {
+          "number": "456",
+          "street": "Oak Ave",
+          "city": "Smalltown",
+          "state": "NY",
+          "postal": "54321",
+          "country": "USA"
+        },
+        "work": "User Company",
+        "email": "user1@example.com"
+      }
+    },
+    {
+      "username": "user2",
+      "password": "user2password",
+      "info": {
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "birthday": {
+          "month": 7,
+          "day": 15,
+          "year": 1985
+        },
+        "address": {
+          "number": "789",
+          "street": "Maple St",
+          "city": "Villageton",
+          "state": "CA",
+          "postal": "98765",
+          "country": "USA"
+        },
+        "work": "Tech Company",
+        "email": "user2@example.com"
+      }
+    },
+    {
+      "username": "user3",
+      "password": "user3password",
+      "info": {
+        "firstName": "Eva",
+        "lastName": "Brown",
+        "birthday": {
+          "month": 1,
+          "day": 8,
+          "year": 1990
+        },
+        "address": {
+          "number": "321",
+          "street": "Pine St",
+          "city": "Greenville",
+          "state": "TX",
+          "postal": "23456",
+          "country": "USA"
+        },
+        "work": "Marketing Agency",
+        "email": "user3@example.com"
+      }
+    },
+    {
+      "username": "user4",
+      "password": "user4password",
+      "info": {
+        "firstName": "David",
+        "lastName": "Clark",
+        "birthday": {
+          "month": 11,
+          "day": 5,
+          "year": 1988
+        },
+        "address": {
+          "number": "101",
+          "street": "Cedar St",
+          "city": "Townsville",
+          "state": "FL",
+          "postal": "34567",
+          "country": "USA"
+        },
+        "work": "Design Studio",
+        "email": "user4@example.com"
+      }
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin1",
+      "password": "admin1password",
+      "info": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthday": {
+          "month": 6,
+          "day": 15,
+          "year": 1980
+        },
+        "address": {
+          "number": "123",
+          "street": "Main St",
+          "city": "Anytown",
+          "state": "CA",
+          "postal": "12345",
+          "country": "USA"
+        },
+        "work": "Admin Company",
+        "email": "admin1@example.com"
+      }
+    },
+    {
+      "username": "admin2",
+      "password": "admin2password",
+      "info": {
+        "firstName": "Sarah",
+        "lastName": "Williams",
+        "birthday": {
+          "month": 4,
+          "day": 10,
+          "year": 1975
+        },
+        "address": {
+          "number": "234",
+          "street": "Birch St",
+          "city": "Metropolis",
+          "state": "IL",
+          "postal": "67890",
+          "country": "USA"
+        },
+        "work": "Tech Company",
+        "email": "admin2@example.com"
+      }
+    },
+    {
+      "username": "admin3",
+      "password": "admin3password",
+      "info": {
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "birthday": {
+          "month": 9,
+          "day": 25,
+          "year": 1982
+        },
+        "address": {
+          "number": "567",
+          "street": "Pine St",
+          "city": "Greenville",
+          "state": "TX",
+          "postal": "23456",
+          "country": "USA"
+        },
+        "work": "Marketing Agency",
+        "email": "admin3@example.com"
+      }
+    },
+    {
+      "username": "admin4",
+      "password": "admin4password",
+      "info": {
+        "firstName": "Laura",
+        "lastName": "Robinson",
+        "birthday": {
+          "month": 2,
+          "day": 18,
+          "year": 1978
+        },
+        "address": {
+          "number": "789",
+          "street": "Cedar St",
+          "city": "Townsville",
+          "state": "FL",
+          "postal": "34567",
+          "country": "USA"
+        },
+        "work": "Design Studio",
+        "email": "admin4@example.com"
+      }
+    }
+  ]
+}
