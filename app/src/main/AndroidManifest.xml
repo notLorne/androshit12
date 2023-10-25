@@ -22,11 +22,16 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".AdminHomeActivity" /> <!-- Declare AdminHomeActivity -->
-        <activity android:name=".AdminAddActivity" /> <!-- Declare AdminAddActivity -->
-        <activity android:name=".AdminDeleteActivity" /> <!-- Declare AdminDeleteActivity -->
-        <activity android:name=".AdminLookupActivity" /> <!-- Declare AdminDeleteActivity -->
-
+        <!-- Admin Activities -->
+        <activity android:name=".AdminHomeActivity" />s
+        <activity android:name=".AdminAddActivity" />
+        <activity android:name=".AdminDeleteActivity" />
+        <activity android:name=".AdminLookupActivity" />
+        <activity android:name=".AdminMailActivity" />
+        <!-- User Activities -->
+        <activity android:name=".UserHomeActivity" />
+        <activity android:name=".UserEditActivity" />
+        <activity android:name=".UserMailActivity" />
     </application>
 
 </manifest>

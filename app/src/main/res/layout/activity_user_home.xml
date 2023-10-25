@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,43 +9,22 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bienvenue dans le menu administrateur."
+        android:text="Bienvenue dans le menu utilisateur."
         android:paddingBottom="128dp"
         android:gravity="center"/>
-
-    <Button
-        android:id="@+id/addButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_1"
-        android:onClick="onAddButtonClick" />
 
     <Button
         android:id="@+id/editButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/option_2"
+        android:text="Modifier"
         android:onClick="onEditButtonClick" />
-
-    <Button
-        android:id="@+id/deleteButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_3"
-        android:onClick="onDeleteButtonClick" />
-
-    <Button
-        android:id="@+id/viewButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/option_4"
-        android:onClick="onViewButtonClick" />
 
     <Button
         android:id="@+id/emailButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/option_5"
+        android:text="Envoyer Courriel"
         android:onClick="onEmailButtonClick" />
 
 </LinearLayout>

@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         jsonData = loadJSONFromAsset("login.json");
 
-        RadioGroup userTypeRadioGroup = findViewById(R.id.userTypeRadioGroup);
         RadioButton adminRadioButton = findViewById(R.id.adminRadioButton);
         RadioButton userRadioButton = findViewById(R.id.userRadioButton);
         Button loginButton = findViewById(R.id.loginButton);
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 String enteredPassword = passwordEditText.getText().toString();
 
                 if (validateCredentials(userType, enteredUsername, enteredPassword)) {
-                    handleSuccessfulLogin();
+                    handleSuccessfulLogin(enteredUsername, userType);
                 } else {
                     Toast.makeText(MainActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
                 }
@@ -94,14 +93,18 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    private void redirectToAdminHomeActivity() {
-        Intent intent = new Intent(MainActivity.this, AdminHomeActivity.class);
-        startActivity(intent);
-        finish(); // Optional: finish() the current activity to prevent going back to the login screen using back button
-    }
-
-    private void handleSuccessfulLogin() {
+    private void handleSuccessfulLogin(String username, String userType) {
         Toast.makeText(MainActivity.this, "Login successful!", Toast.LENGTH_SHORT).show();
-        redirectToAdminHomeActivity();
+
+        Intent intent;
+        if (userType.equals("Admin")) {
+            intent = new Intent(MainActivity.this, AdminHomeActivity.class);
+        } else {
+            intent = new Intent(MainActivity.this, UserHomeActivity.class);
+        }
+
+        intent.putExtra("USERNAME", username); // Pass the username as an extra
+        startActivity(intent);
+        finish();
     }
 }
